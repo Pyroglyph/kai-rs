@@ -1,6 +1,7 @@
 mod generation_response;
 mod generation_settings;
 mod model;
+pub mod prelude;
 mod string_response;
 
 use anyhow::{bail, Result};
