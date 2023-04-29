@@ -7,7 +7,7 @@ description = "A Rust library for using large language models via KoboldAI"
 readme = "README.md"
 repository = "https://github.com/Pyroglyph/kai-rs/"
 license = "LGPL-3.0-only"
-keywords = ["ai", "machine learning", "kobold ai", "llm", "chatgpt"]
+keywords = ["ai", "machine-learning", "koboldai", "llm", "chatgpt"]
 categories = ["api-bindings"]
 
 [badges]
