@@ -22,6 +22,7 @@ Usage should be pretty straightforward. Here is the general idea:
 
 Example:
 ```rust
+use kai_rs::api::v1::*;
 use kai_rs::prelude::*;
 
 let kai = KoboldClient::new("http://localhost:5000", APIVersion::V1);

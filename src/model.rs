@@ -11,10 +11,10 @@ impl fmt::Display for Model {
         match self {
             Model::HuggingFace(owner, model) => {
                 write!(f, "{owner}/{model}")
-            },
+            }
             Model::Local(path) => {
                 write!(f, "{path}")
-            },
+            }
         }
     }
 }
